@@ -1,0 +1,4 @@
+#!/bin/sh
+
+echo "Please update your repo lists with apt-get update!"
+exit 0

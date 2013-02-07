@@ -1,0 +1,230 @@
+<aegis>
+  <domain name="MohammadAG" rank="-100">
+    <allow>
+      <credential name="account-plugin-ovi::noaaccess"/>
+      <credential name="account-plugin-ovi::sso-encryption-token"/>
+      <credential name="aegis-certman-common-ca::CertCACodeSignAdd"/>
+      <credential name="aegis-certman-common-ca::CertCACodeSignUse"/>
+      <credential name="aegis-certman-common-ca::CertCACommonAdd"/>
+      <credential name="aegis-certman-common-ca::CertCAGlobalCodeSignAdd"/>
+      <credential name="aegis-certman-common-ca::CertCASMIMEAdd"/>
+      <credential name="aegis-certman-common-ca::CertCASSLAdd"/>
+      <credential name="aegis-certman-common-ca::CertCAWifiAdd"/>
+      <credential name="aegis-certman-common-ca::CertUserSMIMEUse"/>
+      <credential name="aegis-certman-common-ca::CertUserSSLUse"/>
+      <credential name="aegis-certman-common-ca::CertUserWifiUse"/>
+      <credential name="aegisfs::AegisFSMountAdd"/>
+      <credential name="aegisfs::aegisfs-verify"/>
+      <credential name="applauncherd-launcher::access"/>
+      <credential name="backup-framework::backup"/>
+      <credential name="bme::BatteryControl"/>
+      <credential name="call-ui::call-ui"/>
+      <credential name="CAP::dac_override"/>
+      <credential name="CAP::mac_admin"/>
+      <credential name="CAP::mac_override"/>
+      <credential name="CAP::mknod"/>
+      <credential name="CAP::setgid"/>
+      <credential name="CAP::setpcap"/>
+      <credential name="CAP::setuid"/>
+      <credential name="CAP::sys_admin"/>
+      <credential name="CAP::sys_module"/>
+      <credential name="CAP::sys_rawio"/>
+      <credential name="clean-device::CUDOrRFS"/>
+      <credential name="csd-base::csd-plugin"/>
+      <credential name="devicelock::DeviceLockControl"/>
+      <credential name="devicelock::DeviceLockServiceOwn"/>
+      <credential name="devicelock::DeviceLock_SetPassword"/>
+      <credential name="devicelock::DeviceLockStorageAccess"/>
+      <credential name="devicelock::ProvisioningSettings_MinimalDeviceWipeTypeRequired"/>
+      <credential name="devicelock::ProvisioningSettings_PasswordForceChange"/>
+      <credential name="devicelock::ProvisioningSettings_RnD_additional_Debug"/>
+      <credential name="devicelock::SSO_Exchange"/>
+      <credential name="devicelock::State_Inhibit"/>
+      <credential name="devicelock::State_Locked"/>
+      <credential name="devicelock::State_Unlocked"/>
+      <credential name="devicelock::State_WipeMMC"/>
+      <credential name="dsme::DeviceStateControl"/>
+      <credential name="facebookqml::facebook-token"/>
+      <credential name="GRP::acm"/>
+      <credential name="GRP::adc"/>
+      <credential name="GRP::adm"/>
+      <credential name="GRP::audio"/>
+      <credential name="GRP::backup"/>
+      <credential name="GRP::bin"/>
+      <credential name="GRP::cal"/>
+      <credential name="GRP::cdrom"/>
+      <credential name="GRP::crypto"/>
+      <credential name="GRP::csd"/>
+      <credential name="GRP::daemon"/>
+      <credential name="GRP::developer"/>
+      <credential name="GRP::dip"/>
+      <credential name="GRP::disk"/>
+      <credential name="GRP::fax"/>
+      <credential name="GRP::floppy"/>
+      <credential name="GRP::games"/>
+      <credential name="GRP::gnats"/>
+      <credential name="GRP::haldaemon"/>
+      <credential name="GRP::i2c"/>
+      <credential name="GRP::input"/>
+      <credential name="GRP::irc"/>
+      <credential name="GRP::kmem"/>
+      <credential name="GRP::libaccounts-noa"/>
+      <credential name="GRP::libuuid"/>
+      <credential name="GRP::list"/>
+      <credential name="GRP::location"/>
+      <credential name="GRP::lp"/>
+      <credential name="GRP::lpm"/>
+      <credential name="GRP::mail"/>
+      <credential name="GRP::man"/>
+      <credential name="GRP::messagebus"/>
+      <credential name="GRP::news"/>
+      <credential name="GRP::nogroup"/>
+      <credential name="GRP::operator"/>
+      <credential name="GRP::osa"/>
+      <credential name="GRP::phonet"/>
+      <credential name="GRP::plugdev"/>
+      <credential name="GRP::powerdev"/>
+      <credential name="GRP::proxy"/>
+      <credential name="GRP::pulse"/>
+      <credential name="GRP::pulse-rt"/>
+      <credential name="GRP::sasl"/>
+      <credential name="GRP::shadow"/>
+      <credential name="GRP::signon"/>
+      <credential name="GRP::slpgwd"/>
+      <credential name="GRP::spool"/>
+      <credential name="GRP::src"/>
+      <credential name="GRP::ssh"/>
+      <credential name="GRP::staff"/>
+      <credential name="GRP::sudo"/>
+      <credential name="GRP::sys"/>
+      <credential name="GRP::tape"/>
+      <credential name="GRP::tty"/>
+      <credential name="GRP::upstart"/>
+      <credential name="GRP::utmp"/>
+      <credential name="GRP::uucp"/>
+      <credential name="GRP::visualreminder"/>
+      <credential name="GRP::voice"/>
+      <credential name="GRP::www-data"/>
+      <credential name="libaccounts-glib0::accounts-glib-access"/>
+      <credential name="libaccounts-glib0::t"/>
+      <credential name="libaccounts-glib0::tok"/>
+      <credential name="libaegis-session::aegis-session-data"/>
+      <credential name="libbb5-secbins::SEE_CCCWrite"/>
+      <credential name="libbb5-secbins::SEE_DBIWrite"/>
+      <credential name="libbb5-secbins::SEE_DeviceLockControl"/>
+      <credential name="libbb5-secbins::SEE_HWCWrite"/>
+      <credential name="libbb5-secbins::SEE_NPCWrite"/>
+      <credential name="libbb5-secbins::SEE_SecStorageMaintenance"/>
+      <credential name="libbb5-secbins::SEE_SimLock3Operation"/>
+      <credential name="libbb5-secbins::SEE_SimLock3Write"/>
+      <credential name="libbb5-secbins::SEE_SuperDongleOperation"/>
+      <credential name="libbb5-secbins::SEE_SuperDongleWrite"/>
+      <credential name="libbb5-secbins::SEE_TerminalResponce"/>
+      <credential name="libodnp::odnp"/>
+      <credential name="libslpgw::slpgw"/>
+      <credential name="location-ui::location-ui"/>
+      <credential name="mce::CallStateControl"/>
+      <credential name="mce::DeviceModeControl"/>
+      <credential name="mce::LEDControl"/>
+      <credential name="mce::SensorControl"/>
+      <credential name="mce::TKLockControl"/>
+      <credential name="messaging-ui::messaging-ui"/>
+      <credential name="mms-manager::MmsProtectedReadAccess"/>
+      <credential name="mms-manager::MmsProtectedWriteAccess"/>
+      <credential name="mms-manager::MmsWorkerAccess"/>
+      <credential name="npe-maemo0::LocationFW"/>
+      <credential name="odnp-fpcd::odnp-fpcd"/>
+      <credential name="omb0::omb-communication"/>
+      <credential name="phonet-at::acm-plugin"/>
+      <credential name="positioningd::LocationControl"/>
+      <credential name="signon-default-key-extension::key-storage"/>
+      <credential name="signond::keychain-access"/>
+      <credential name="signon-ui::signond-access"/>
+      <credential name="smartsearch::RelevanceAllContentTypes"/>
+      <credential name="system-ui-screenlock-nokia::ScreenLockEventPublish"/>
+      <credential name="tcb"/>
+      <credential name="telepathy-spirit::telepathy-spirit"/>
+      <credential name="timed::TimeBackup"/>
+      <credential name="timed::TimeControl"/>
+      <credential name="timed::TimedEventQueueWrite"/>
+      <credential name="usb-moded::USBControl"/>
+      <credential name="usb-moded::usb-moded-dbus-bind"/>
+      <credential name="UID::user"/>
+      <credential name="GID::developer"/>
+      <credential name="GID::users"/>
+      <credential name="CAP::chown"/>
+      <credential name="CAP::dac_read_search"/>
+      <credential name="CAP::fowner"/>
+      <credential name="CAP::fsetid"/>
+      <credential name="CAP::kill"/>
+      <credential name="CAP::linux_immutable"/>
+      <credential name="CAP::net_bind_service"/>
+      <credential name="CAP::net_broadcast"/>
+      <credential name="CAP::net_admin"/>
+      <credential name="CAP::net_raw"/>
+      <credential name="CAP::ipc_lock"/>
+      <credential name="CAP::ipc_owner"/>
+      <credential name="CAP::sys_chroot"/>
+      <credential name="CAP::sys_ptrace"/>
+      <credential name="CAP::sys_pacct"/>
+      <credential name="CAP::sys_boot"/>
+      <credential name="CAP::sys_nice"/>
+      <credential name="CAP::sys_resource"/>
+      <credential name="CAP::sys_time"/>
+      <credential name="CAP::sys_tty_config"/>
+      <credential name="CAP::lease"/>
+      <credential name="CAP::audit_write"/>
+      <credential name="CAP::audit_control"/>
+      <credential name="CAP::setfcap"/>
+      <credential name="GRP::root"/>
+      <credential name="GRP::dialout"/>
+      <credential name="GRP::video"/>
+      <credential name="GRP::pulse-access"/>
+      <credential name="GRP::users"/>
+      <credential name="GRP::metadata-users"/>
+      <credential name="GRP::calendar"/>
+      <credential name="Cellular"/>
+      <credential name="TrackerReadAccess"/>
+      <credential name="TrackerWriteAccess"/>
+      <credential name="Location"/>
+      <credential name="FacebookSocial"/>
+      <credential name="tracker::tracker-extract-access"/>
+      <credential name="tracker::tracker-miner-fs-access"/>
+      <credential name="libaccounts-noa::accesssvt"/>
+      <credential name="package-manager::packagemanager_limited"/>
+      <credential name="package-manager::packagemanager_private"/>
+      <credential name="icd2::icd2-plugin"/>
+    </allow>
+    <origin>
+      <keyinfo>
+         mQENBFES7XABCADCQCFwER9VNfokjXUHHX9fkjDjJYHYgJYHzrpnwJ2w35mvQs53
+         06sDAoFDct5YjhiVwNvqgO4gAZ4YxggX1peTz9Qva7Ixd35cE1vrFTmQdVtOb2F2
+         7fxvUYQAANHAZ1IWyqKw47MbL5mWIK2byLS1d/hoiOezAJ6gQnx6p8ROYTjk8efW
+         lWnIWMx15zSkJyMlmiWaojMi7MvNSUpRZ+nSlsuSwMI0nF1/e+HRd0ujuF6EIYzQ
+         OkKH6/AFvJbr0UzwwWSgbR2SN0vNWT7FhD4zC1XTEVjkohQ4VmstDP4mww/b2zPr
+         TmbFhP46IQJ6zvfShqUr0FFhB2A1gI/nIa0bABEBAAG0L01vaGFtbWFkIEFidS1H
+         YXJiZXl5ZWggPG1vaGFtbWFkNzQxMEBnbWFpbC5jb20+iQE4BBMBAgAiBQJREu1w
+         AhsDBgsJCAcDAgYVCAIJCgsEFgIDAQIeAQIXgAAKCRB3WE0XTR7X7Hg5B/4pRgvY
+         +6H+58jJjk18jpWiS6Um/nsClkCAuQPb8XyT5zhZFfMztxYBywWoKXx27o+I1naG
+         khaG4ZuUEUquf/JCzGKBm30LclsxixdoVU4R4iME3nWaS1S2D1PtKeiAjEtDaooL
+         Wks1aYPsprfhNHgvKaZPZIuHMSpyxMrYNt42Cx0n/4WcAoWP7F0E5xfJXx24jHel
+         4ASii6DcS5SQZAcOfUoicVHmNRnoiaC236bHyrQ1PH4XASCXnfUut50Wc4VgzdYp
+         NTG1Ipi2v5wiSs4dJ6vCh2RFiXJAUJvMEU7rseAyP//ylZG9ZVNEt2kE4JknXrwZ
+         Fq6YNRUhfTUh3kNAuQENBFES7XABCACjCOmlC8xrZ4WoKnCnJTWcp7Kf5qNHpnAY
+         zjbmSpTgHsfBSROQwSBHFWwqN0bpLLNWV8BpoJHfhC2FiCAZuuvkhGejB5cKBD7g
+         h+ZSzZC//f9ZRHgBzFFUUJ4BRnZyGyINmVTfemybcSoSNGsG8fMf5vauBNqI0vFT
+         3l6Bj4nPW8FPFqkM29sSfAKs3MPJ+5DNpwiUo++mEjs/fQq0hJ1seNKNqSakQmHh
+         fyYc60NPReprCiwpssr634TUVwcBMtZjnSNT7UanKzGKb/+9mZHWOhGL0yS0tEaH
+         V3HEQ4vuIoYTzl+Z0cbXg4nrC4WQlJn8ZlhzZSni1GhyCF9ycsi3ABEBAAGJAR8E
+         GAECAAkFAlES7XACGwwACgkQd1hNF00e1+w3UQf+OHpoGQ+87caRPANvIECDbSgD
+         2kDtu4FtH0eJ13FSd3H3u48XN/5pQtIA8WOjlHI4j3j1CI9lsknNfIzfdJ7caJ3w
+         BQbD7WzPwZOnaN0XOHDZba+2Gzj1hp73cFwmrSrDNRl3O5DfdMK1SaByUxGI6WsB
+         OrML9qHtTrVzpvLYrnj55PMlJDmLQlMk/SSisKJE8DHeLoXN+4mzdmKOCDvHVxwv
+         K66we2s4VA2QHWQMpRpnrh9/8rmA8S+Uv3h/qcbyPuSyp9/bxJmPPsJ0Ze6d/K2C
+         1XUvgWi47ZsZQgvOvj6HqpfXcCypQTqJttvNzVwnB3SNXo218asCQtAXkzuFMg==
+         =VFbc
+      </keyinfo>
+      <access data="deb http://mohammadag.xceleo.org/n9inceptedrepo harmattan-incepted free non-free" />
+   </origin>
+  </domain>
+ </aegis>

@@ -1,0 +1,14 @@
+Source: incepted-repo-enabler
+Section: other
+Priority: optional
+Maintainer: Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>
+Build-Depends: debhelper (>= 5)
+Standards-Version: 3.7.3
+
+Package: incepted-repo-enabler
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Enables MohammadAG's Inception repo
+ This installs MohammadAG's inception repo, it 
+ contains most packages that require inception.
+XSBC-Maemo-Display-Name: Incepted repo enabler

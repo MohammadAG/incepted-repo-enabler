@@ -1,0 +1,17 @@
+incepted-repo-enabler (0.3) unstable; urgency=low
+
+  * Changed GPG key due to hosting change.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Thu, 07 Feb 2013 02:28:27 +0200
+
+incepted-repo-enabler (0.2) unstable; urgency=low
+
+  * Added non-free component
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Tue, 24 Jul 2012 21:23:11 +0300
+
+incepted-repo-enabler (0.1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Mohammad Abu-Garbeyyeh <mohammad7410@gmail.com>  Fri, 15 Jun 2012 22:52:42 +0300
